@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="stb">
+      <UniqueIdentifier>{b51cf024-4928-439a-897e-35db01de29ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrankLuna">
+      <UniqueIdentifier>{1c7433d9-f5ce-4d09-bd58-47e100843d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyobj">
+      <UniqueIdentifier>{619a9b6b-f474-4d09-94b0-ff3cb8c46bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectXTK12">
+      <UniqueIdentifier>{2cacde69-000f-4e90-b7d1-f873f47cddc0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\App\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\stb\stb_image.cpp">
+      <Filter>stb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\FrankLuna\d3dUtil.cpp">
+      <Filter>FrankLuna</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\FrankLuna\GameTimer.cpp">
+      <Filter>FrankLuna</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\tinyobjloader\tiny_obj_loader.cc">
+      <Filter>tinyobj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\DirectXTK12\DDSTextureLoader.cpp">
+      <Filter>DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\DirectXTK12\DirectXHelpers.cpp">
+      <Filter>DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\DirectXTK12\GraphicsMemory.cpp">
+      <Filter>DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\DirectXTK12\LinearAllocator.cpp">
+      <Filter>DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\DirectXTK12\pch.cpp">
+      <Filter>DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\DirectXTK12\ResourceUploadBatch.cpp">
+      <Filter>DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\DirectXTK12\WICTextureLoader.cpp">
+      <Filter>DirectXTK12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\App\PBRApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\FrankLuna\d3dApp.cpp">
+      <Filter>FrankLuna</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\FrankLuna\MathHelper.cpp">
+      <Filter>FrankLuna</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\App\FrameResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\App\MathUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\App\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\stb\stb_image.h">
+      <Filter>stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\FrankLuna\d3dUtil.h">
+      <Filter>FrankLuna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\FrankLuna\GameTimer.h">
+      <Filter>FrankLuna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\FrankLuna\UploadBuffer.h">
+      <Filter>FrankLuna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\tinyobjloader\tiny_obj_loader.h">
+      <Filter>tinyobj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\App\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\App\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\App\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\DirectXTK12\d3dx12.h">
+      <Filter>DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\DirectXTK12\dds.h">
+      <Filter>DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\DirectXTK12\DDSTextureLoader.h">
+      <Filter>DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\DirectXTK12\DirectXHelpers.h">
+      <Filter>DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\DirectXTK12\GraphicsMemory.h">
+      <Filter>DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\DirectXTK12\LinearAllocator.h">
+      <Filter>DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\DirectXTK12\LoaderHelpers.h">
+      <Filter>DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\DirectXTK12\pch.h">
+      <Filter>DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\DirectXTK12\PlatformHelpers.h">
+      <Filter>DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\DirectXTK12\ResourceUploadBatch.h">
+      <Filter>DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\DirectXTK12\WICTextureLoader.h">
+      <Filter>DirectXTK12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\FrankLuna\d3dApp.h">
+      <Filter>FrankLuna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\FrankLuna\d3dx12.h">
+      <Filter>FrankLuna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\FrankLuna\MathHelper.h">
+      <Filter>FrankLuna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\App\Core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
